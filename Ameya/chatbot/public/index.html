@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LLM Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="chat-container">
+        <h2>Chat</h2>
+
+        <div class="controls">
+            <select id="model-select">
+                <option value="Cypher_Alpha"> Cypher_Alpha</option>
+                <option value="mistral">Mistral</option>
+                <option value="deepseek">Deepseek</option>
+
+            </select>
+        </div>
+
+
+        <div id="chat-history" class="chat-history"></div>
+
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</body>
+
+</html>
