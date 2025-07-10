@@ -1,0 +1,4 @@
+Chatbot: https://lookslikeameya.github.io/JS-Assignment-2025/Ameya/chatbot/public/index.html
+Game: https://lookslikeameya.github.io/JS-Assignment-2025/Ameya/game/index.html
+Snappy Site: https://lookslikeameya.github.io/JS-Assignment-2025/Ameya/snappy_site/index.html
+
