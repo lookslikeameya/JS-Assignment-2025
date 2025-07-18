@@ -1,6 +1,6 @@
 
 
-const apiKey = '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';
+const apiKey = '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';
 
 fetch('https://openrouter.ai/api/v1/chat/completions', {
   method: 'POST',
@@ -12,8 +12,7 @@ fetch('https://openrouter.ai/api/v1/chat/completions', {
     model: 'mistralai/mistral-small-3.2-24b-instruct:free',
     messages: [
       { role: 'user', content: 'What is the capital of France?' }
-    ],
-    max_tokens: 500
+    ]
   }),
 })
 .then(res => {
@@ -21,5 +20,5 @@ fetch('https://openrouter.ai/api/v1/chat/completions', {
   return res.json(); // Continue parsing the JSON body
 })
 .then(data => {
-  console.log('Parsed JSON:', data);
+  console.log( data);
 })

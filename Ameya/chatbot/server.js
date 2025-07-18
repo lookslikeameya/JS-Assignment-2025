@@ -15,7 +15,7 @@ app.use(cors());
 // Map friendly names to model strings and API keys
 const MODEL_CONFIG = {
     Cypher_Alpha: {
-        model: "openrouter/cypher-alpha:free",
+        model: "moonshotai/kimi-k2:free",
         key: process.env.CYPHER_ALPHA_KEY
     },
     mistral: {
